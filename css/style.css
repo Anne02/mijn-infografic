@@ -81,6 +81,12 @@
     margin-top: 100vw;
 }
 
+.titelspan {
+    margin: 10px;
+    color: #427afa;
+    font-weight: 700;
+}
+
 .zoveel {
 
     display: block;
@@ -398,8 +404,4 @@ p {
 
 i {
     float: left;
-}
-
-span {
-    margin: 10px;
 }
