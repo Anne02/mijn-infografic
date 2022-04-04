@@ -399,3 +399,7 @@ p {
 i {
     float: left;
 }
+
+span {
+    margin: 10px;
+}
