@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <script src="js/script.js" defer></script>
+    <script src="https://kit.fontawesome.com/2797f961f3.js" crossorigin="anonymous"></script>
+    <title>Infografic stemmmen</title>
+</head>
+<!-- Ik heb voor mijn code een paar hoofdstukken gepakt van mijn infografic waarin ik een animatie heb verwerkt. Ik heb ook het begin en het eind gepakt, zodat je toch nog een goed beeld krijgt van wat ik in gedachte had.  -->
+
+<body>
+
+    <img src="img/stempas.png" alt="handje met pas" class="pas">
+    <!-- deze stempas zit op een fixed position, en valt als het ware uit de hand -->
+    <img src="img/handje.png" alt="handje met pas" class="hand">
+
+    <!-- Dit formulier zou eigenlijk halverwege de stempas overnemen, heb hem nu helemaal onder aan geplaatst, zodat het idee te zien is -->
+    <div id="eerstescherm">
+        <h1>De Tweede Kamer verkiezingen</h1>
+
+        <h2 class="weten">Alles wat je moet weten als je voor het&nbsp
+            <span style="color: #427afa;
+            font-weight:500">eerst&nbsp</span>
+            gaat&nbsp<span style="color: #427afa;
+            font-weight:500">stemmen!</span></h2>
+        <!-- ik heb gebruik gemaakt van span om een higlight te geven aan woorden. -->
+        <!-- &nbsp is een extra spatie, de span pakt niet alle spaties mee, helaas ziet de code dat als een fout -->
+
+    </div>
+
+    <div>
+        <p class="zoveel">Jij en <span style="color: #000000;
+            font-weight:700;
+            font-size: 4vw;">655.000</span>
+            anderen mogen
+            voor het eerst
+            <span style="color: #000000;
+            font-weight:700;
+            font-size: 3vw;">stemmen</span></p>
+        <!-- hier zit een fade animatie op -->
+    </div>
+
+    <div class="block">
+        <h1>De Tweede Kamerverkiezingen</h1>
+        <img src="img/nederland.png" alt="een kaartje van Nederland" id="nederland">
+        <img src="img/pijltjeh1.png" alt="een kaartje van Nederland" class="pijltje">
+        <!-- op het pijltje zit een animatie -->
+
+
+        <div class="tktekst">
+            <p>Elke <span style="color: #000000;
+                font-weight:700">4 jaar</span> zijn er in Nederland de <span style="color: #427afa;
+                font-weight:700">Tweede Kamer </span>verkiezingen . Daarbij kunnen de mensen met
+                kiesrechten
+                kiezen voor <span style="color: #000000;
+                font-weight:700">wie hen vertegenwoordigen</span> in <span style="color: #427afa;
+                font-weight:700">Den Haag</span>.</p>
+
+            <i class="fas fa-info-circle"></i>
+            <p id="infoverkiezingen" class="infos"> De <span style="color: #427afa;
+            ">Tweede Kamer</span> controleert de regering en maakt nieuwe wetten. <br>
+                In <span style="color: #427afa;
+                    ">Den Haag</span> bevind zich de regering en het parlement. <br>
+                Het <span style="color: #427afa;
+                    ">parlement</span> is de Eerste en Tweede Kamer. <br>
+                De <span style="color: #427afa;
+                ">regering</span> moet de wetgeving en Rijksoverheidstaken uitvoeren.
+            </p>
+            <!-- ik heb een aparte class voor de extra informatie blokje, in sommige hoofstukken heb ik dit blokje weer een andere class of id moeten geven omdat ze niet altijd goed op hun plek zaten -->
+        </div>
+    </div>
+
+    <div class="block">
+        <div id="tweedekamer">
+            <br>
+            <h1 id="deverkiezingen">Tweede Kamer</h1>
+            <div class="tkdiv">
+                <h3 class="h3tk">Tweede Kamer 2017-2021</h3><img src="img/tkd1.png" alt="de tweede kamer van 2017"
+                    class="tkd1">
+                <img src="img/tkd2.png" alt="de tweede kamer van 2017" class="tkd2">
+                <!-- op deze twee afbeeldingen zitten een animatie -->
+                <br> <img src="img/tkd3.png" alt="de tweede kamer van 2017" class="tkd3">
+            </div>
+
+            <div class="tktekst">
+                <p id="tweedekamerpar">
+                    In de Tweede Kamer zijn er <span style="color: #427afa;
+            font-weight:700">150 zetels</span>. Deze 150 zetels worden verdeeld <span style="color: #000000;
+            font-weight:700">over de parijen</span> op basis van de
+                    verkiezingsuitslagen. <span style="color: #427afa;
+            font-weight:700">Eerste Kamer</span> heeft <span style="color: #000000;
+            font-weight:700">75 zetels</span> en word gekozen door de <span style="color: #427afa;
+            font-weight:700">Provinciale staten</span>.
+                    <br><br>
+                    Bij de <span style="color: #000000;
+            font-weight:700">verkiezingen van 2017</span> is uitgekomen dat de <span style="color: #000000;
+            font-weight:700">VVD</span> en de <span style="color: #000000;
+            font-weight:700">PVV</span> de grootste partijen
+                    zijn. Forum van
+                    Democratie was de kleinste.
+
+                </p>
+                <i class="fas fa-info-circle"></i>
+                <p class="infos"> <span style="color:#427afa;
+           ">150 zetels</span> zijn 150 Kamerleden die Nederland vertegenwoordigen. <br>
+                    <span style="color: #427afa;
+            ">De Eerste Kamer</span> keuren wetsvoorstellen van de Tweede kamer goed of af. <br>
+                    <span style="color: #427afa;
+            ">Provinciale staten</span> zijn de volksvertegenwoordigers van de provincie.
+                </p>
+            </div>
+        </div><br>
+    </div>
+
+
+    <div class="denkdiv">
+        <h2>Wat moet ik stemmen?</h2>
+        <img src="img/denkertje.png" alt="een man die denkt" class="denker">
+        <img src="img/denkwolk.png" alt="een denkwolkje met partijen" class="denkwolk">
+        <!-- denkertje2 is een denkwork met een animatie -->
+        <p id="pardenk">De grote vraag voor jezelf bij het stemmen is:
+            <span style="color: #000000;
+                font-weight:700">Voor wie ga ik stemmen?</span> Op internet zijn er een aantal <span style="color: #427afa;
+            font-weight:700">stemwijzers</span>
+            waarin je op bepaalde stellingen je
+            <span style="color: #000000;
+                font-weight:700">mening invult</span>. Hartstikke handig als je nog geen idee hebt waar jij op wilt
+            gaan stemmen. Op basis van je
+            antwoorden geven de stemwijzers je een <span style="color: #000000;
+            font-weight:700">advies</span> op <span style="color: #000000;
+            font-weight:700">welke partij</span> je zou kunnen gaan stemmen. Hieronder zijn wat
+            websites aangegeven: <br><br>
+            .... alle sites
+        </p>
+    </div>
+    <div>
+        <h2 id="natitle">Na het stemmen?</h2>
+        <img src="img/vakjes.png" alt="stemvakjes" class="vakjes">
+        <img src="img/potlood.png" alt="groot potlood" class="potlood">
+        <!-- op het potlood zit een animatie -->
+
+        <div id="naalles">
+            <p id="napar">Nadat de <span style="color: #000000;
+                font-weight:700">stembureaus</span> zijn gesloten worden de stemmen met de <span style="color: #427afa;
+                font-weight:700">hand</span> geteld door de leden van elk
+                stembureau.
+                <br><br>
+                Eerst worden de stemmen geteld <span style="color: #000000;
+                font-weight:700">per stembureau</span>. Dan <span style="color: #000000;
+                font-weight:700">per gemeente</span>, dan <span style="color: #000000;
+                font-weight:700">per kieskring</span>, dan wordt er geteld
+                door
+                de <span style="color: #427afa;
+                font-weight:700">Kiesraad</span>. Op basis daarvan berekent de Kiesraad vervolgens hoeveel <span style="color: #000000;
+                font-weight:700">zetels</span> de
+                partijen krijgen en
+                welke
+                <span style="color: #000000;
+                font-weight:700">kandidaten</span> er zijn gekozen.</p>
+
+            <i id="iconna" class="fas fa-info-circle"></i>
+            <p id="infona" class="infos"><span style="color: #427afa;
+            ">Handmatig tellen</span> is om fraude te voorkomen.
+                Centraal kiesbureau, ook wel de <span style="color: #427afa;
+            ">Kiesraad</span>. De Kiesraad stelt de uitslag vast in een openbare zitting.
+
+            </p>
+            <p id="nawoord"><span style="color: #000000;
+                font-weight:700">Door:</span> <br>
+                Anne Bloem
+                <br><br>
+                <span style="color: #000000;
+                font-weight:700">Bronnen:</span> <br>
+                Nu.nl <br>
+                Cbs.nl <br>
+                Kiesraad.nl <br>
+                Parlement.com <br>
+                Tweedekamer.nl <br>
+
+            </p>
+
+        </div>
+        <img src="img/formulier.png" alt="stemformulier" class="formulier">
+        <img src="img/pijleind.png" alt="pijl naar container" class="pijleind">
+        <!-- pijl komt van boven naar beneden in beeld -->
+    </div>
+
+    <img src="img/container1.png" alt="grijze container" class="container">
+    <img src="img/container2.png" alt="grijze container" class="container2">
+    <!-- twee delen containers, want 1 moet onder op en een boven zodat de fixed stempas/formulier in de container valt.  -->
+</body>
+
+</html>
